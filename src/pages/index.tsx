@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Image from "next/future/image";
 import Head from "next/head";
 import Link from "next/link";
+import hero from "../assets/hero.webp";
 
 const Home: NextPage = () => {
   return (
@@ -24,7 +25,15 @@ const Home: NextPage = () => {
               </h2>
             </nav>
           </header>
-          <div className="col-[2/3] row-[2/3] bg-[url('/hero.webp')] bg-cover bg-no-repeat  bg-center border border-gray-300">
+          <div className="relative col-[2/3] row-[2/3] bg-cover bg-no-repeat  bg-center border border-gray-300">
+            <Image
+              src={hero}
+              priority
+              fill
+              alt=""
+              className="-z-10 object-cover"
+              placeholder="blur"
+            />
             <div className="grid place-items-center h-full">
               <div className="grid place-items-center gap-9">
                 <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-gray-800">
@@ -58,19 +67,19 @@ const Home: NextPage = () => {
           </header>
           <div className="col-[2/3] row-[2/3] w-fit gap-24 justify-self-center flex flex-col lg:grid lg:grid-cols-2 xl:grid-cols-3 place-items-center">
             <div className="border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
-              <Image src="/image-5.jpg" fill alt="" className="object-cover" />
+              <Image src="/image-5.webp" fill alt="" className="object-cover" />
             </div>
             <div className="border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
-              <Image src="/image-2.jpg" fill alt="" className="object-cover" />
+              <Image src="/image-2.webp" fill alt="" className="object-cover" />
             </div>
             <div className="border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
-              <Image src="/image-1.jpg" fill alt="" className="object-cover" />
+              <Image src="/image-1.webp" fill alt="" className="object-cover" />
             </div>
             <div className="xl:col-[1/3] xl:row-[2/3] border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
-              <Image src="/image-3.jpg" fill alt="" className="object-cover" />
+              <Image src="/image-3.webp" fill alt="" className="object-cover" />
             </div>
             <div className="lg:col-[1/3] xl:row-[2/3] xl:col-[2/4] border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
-              <Image src="/image-4.jpg" fill alt="" className="object-cover" />
+              <Image src="/image-4.webp" fill alt="" className="object-cover" />
             </div>
           </div>
           <Link
