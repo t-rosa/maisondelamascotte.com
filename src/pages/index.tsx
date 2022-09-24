@@ -4,6 +4,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Gallery from "../components/Gallery";
 import Hero from "../components/Hero";
+import Host from "../components/Host";
+import Visit from "../components/Visit";
 
 const Home: NextPage = () => {
   return (
@@ -34,6 +36,8 @@ const Home: NextPage = () => {
       <main className="h-full">
         <Hero />
         <Gallery />
+        <Visit />
+        <Host />
       </main>
     </>
   );
