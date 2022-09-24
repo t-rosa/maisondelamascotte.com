@@ -4,7 +4,7 @@ import Image from "next/future/image";
 function Contact() {
   return (
     <section
-      id="visit"
+      id="contact"
       className="grid grid-rows-[5rem_auto_5rem] grid-cols-[1rem_auto_1rem] sm:grid-rows-[5rem_auto_5rem] sm:grid-cols-[5rem_auto_5rem] pt-6"
     >
       <header className="col-[2/3] row-[1/2] ">

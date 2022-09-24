@@ -29,15 +29,26 @@ function Hero() {
             <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-gray-800">
               Bienvenue en Provence
             </h1>
-            <Link href="#gallery" passHref>
-              <a
-                className="
-                  text-3xl sm:text-4xl md:text-5xl lg:text-5xl text-gray-800 border border-gray-600 py-2 px-6 
-                  hover:scale-105 hover:shadow-lg duration-300 font-bold bg-blue-200 bg-opacity-20"
-              >
-                Découvrir
-              </a>
-            </Link>
+            <div className="flex flex-col md:flex-row gap-3">
+              <Link href="#gallery" passHref>
+                <a
+                  className="
+                     text-center text-3xl sm:text-4xl md:text-5xl lg:text-5xl text-gray-800 border border-gray-600 py-2 px-6
+                    hover:scale-105 hover:shadow-lg duration-300 font-bold bg-blue-200 bg-opacity-50"
+                >
+                  Découvrir
+                </a>
+              </Link>
+              <Link href="#contact" passHref>
+                <a
+                  className="
+                    text-center text-3xl sm:text-4xl md:text-5xl lg:text-5xl text-gray-800 border border-gray-600 py-2 px-6
+                    hover:scale-105 hover:shadow-lg duration-300 font-bold bg-blue-200 bg-opacity-50"
+                >
+                  Contacter
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

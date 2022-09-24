@@ -18,6 +18,9 @@ function Footer() {
       <Link passHref href="#faq">
         <a className="hover:text-indigo-800 duration-100">FAQ</a>
       </Link>
+      <Link passHref href="#contact">
+        <a className="hover:text-indigo-800 duration-100">Contact</a>
+      </Link>
       <h3 className="mt-3">&copy; 2022 Toma Rosa. Tous droits réservés</h3>
     </footer>
   );

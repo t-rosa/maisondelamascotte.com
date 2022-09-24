@@ -1,6 +1,6 @@
 function Host() {
   return (
-    <section id="host" className="grid px-20 gap-y-16">
+    <section id="host" className="grid px-6 gap-y-16 sm:px-12 md:px-20">
       <header className="col-[2/3] row-[1/2]">
         <nav className="grid place-items-center w-full h-full">
           <h2 className="text-3xl sm:text-4-xl md:text-5xl border-b border-gray-400 text-center">
