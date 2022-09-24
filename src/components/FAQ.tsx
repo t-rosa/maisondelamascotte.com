@@ -5,21 +5,38 @@ import clsx from "clsx";
 
 const faqs = [
   {
-    question:
-      "Quel est le tarif d'un séjour à l'établissement Maison de la Mascotte ?",
+    question: "Quel est le tarif d'un séjour ?",
     answer:
       "Les tarifs fixés par l'établissement Maison de la Mascotte peuvent varier en fonction de votre séjour (par ex. les dates que vous avez sélectionnées, les conditions de l'hôtel, etc.). Indiquez vos dates pour voir les tarifs.",
   },
-  // More questions...
+  {
+    question: "Quels sont les horaires d'arrivée et de départ ?",
+    answer:
+      "L'enregistrement à l'établissement Maison de la Mascotte se fait à partir de 16h00 et le départ est possible jusqu'à 11h00.",
+  },
+  {
+    question:
+      "Les clients de l'établissement Maison de la Mascotte ont-ils accès à une piscine privée ?",
+    answer: "Oui !",
+  },
+  {
+    question: "Combien de chambres possède le gîte ?",
+    answer:
+      "La maison possède une chambre avec un lit deux place, un canapé-lit deux places est aussi mis a disposition.",
+  },
+  {
+    question: "Combien de personnes peuvent séjourner dans la maison ?",
+    answer: "La maison peut accueillir jusqu'à quatre personnes.",
+  },
 ];
 
 function FAQ() {
   return (
-    <div className="bg-gray-50 mt-12 font-sans">
+    <div className="bg-gray-50 mt-12 font-sans border-y ">
       <div className="mx-auto max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl divide-y-2 divide-gray-200">
           <h2 className="font-['allura'] text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Questions fréquemment posées
+            Des questions ?
           </h2>
           <dl className="mt-6 space-y-6 divide-y divide-gray-200">
             {faqs.map((faq) => (

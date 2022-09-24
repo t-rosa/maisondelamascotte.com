@@ -1,11 +1,9 @@
-import Link from "next/link";
-
 function Host() {
   return (
     <section id="host" className="grid px-20 gap-y-16">
       <header className="col-[2/3] row-[1/2]">
         <nav className="grid place-items-center w-full h-full">
-          <h2 className="text-3xl sm:text-4-xl md:text-5xl border-b border-gray-400">
+          <h2 className="text-3xl sm:text-4-xl md:text-5xl border-b border-gray-400 text-center">
             Laissez vous guider par vos hôtes
           </h2>
         </nav>
@@ -126,19 +124,6 @@ function Host() {
           </figcaption>
         </figure>
       </div>
-      <Link
-        href="https://www.booking.com/hotel/fr/bardelli-nathalie.fr.html"
-        passHref
-      >
-        <a
-          className="
-                  col-[2/3] row-[3/4] place-self-center
-                  text-3xl sm:text-3xl md:text-5xl lg:text-5xl text-gray-800 border border-gray-600 py-2 px-6
-                  hover:scale-105 hover:shadow-lg duration-300 font-bold"
-        >
-          Détails et réservation
-        </a>
-      </Link>
     </section>
   );
 }
