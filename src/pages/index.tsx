@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
 import Hero from "../components/Hero";
@@ -37,6 +38,7 @@ const Home: NextPage = () => {
         <Gallery />
         <Visit />
         <Host />
+        <FAQ />
         <Footer />
       </main>
     </>

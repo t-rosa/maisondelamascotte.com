@@ -10,7 +10,7 @@ function Gallery() {
       <header className="col-[2/3] row-[1/2] pb-16">
         <nav className="grid place-items-center w-full h-full">
           <h2 className="text-3xl sm:text-4-xl md:text-5xl border-b border-gray-400">
-            Gallerie
+            Galerie
           </h2>
         </nav>
       </header>
