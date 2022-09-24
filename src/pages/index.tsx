@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
-import Image from "next/future/image";
 import Head from "next/head";
-import Link from "next/link";
+import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
 import Hero from "../components/Hero";
 import Host from "../components/Host";
@@ -38,6 +37,7 @@ const Home: NextPage = () => {
         <Gallery />
         <Visit />
         <Host />
+        <Footer />
       </main>
     </>
   );
