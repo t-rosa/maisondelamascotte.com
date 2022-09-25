@@ -17,13 +17,72 @@ function Visit() {
       <div className="col-[2/3] row-[2/3] w-fit gap-24 justify-self-center flex flex-col lg:grid lg:grid-cols-2 xl:grid-cols-3 place-items-center">
         <Link
           passHref
+          href="https://www.google.fr/maps/place/13210+Saint-R%C3%A9my-de-Provence/@43.7815916,4.8103769,13z/data=!3m1!4b1!4m5!3m4!1s0x12b5e431ac6048f3:0xb5f2d15b520e77dd!8m2!3d43.788652!4d4.831343"
+        >
+          <a target="_blank" rel="noreferrer">
+            <figure className=" border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
+              <Image
+                src="/saint-remy.webp"
+                fill
+                alt=""
+                className="object-cover"
+              />
+              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+                Saint-Rémy-de-Provence - 10km
+              </figcaption>
+            </figure>
+          </a>
+        </Link>
+        <Link
+          passHref
           href="https://www.google.com/maps/place/Avignon/@43.9416581,4.7630461,12z/data=!3m1!4b1!4m5!3m4!1s0x12b5eb8739bc9d07:0xe6429b6efa1d7b36!8m2!3d43.949317!4d4.805528"
         >
           <a target="_blank" rel="noreferrer">
             <figure className="border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
               <Image src="/avignon.webp" fill alt="" className="object-cover" />
               <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
-                Avignon
+                Avignon - 14km
+              </figcaption>
+            </figure>
+          </a>
+        </Link>
+        <Link
+          passHref
+          href="https://www.google.fr/maps/place/13520+Les+Baux-de-Provence/@43.7491691,4.7874773,14z/data=!3m1!4b1!4m5!3m4!1s0x12b5e15dd86ab221:0x40819a5fd9704e0!8m2!3d43.743887!4d4.795495"
+        >
+          <a target="_blank" rel="noreferrer">
+            <figure className=" border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
+              <Image src="/baux.webp" fill alt="" className="object-cover" />
+              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+                Les baux de Provence - 19km
+              </figcaption>
+            </figure>
+          </a>
+        </Link>
+        <Link
+          href={
+            "https://www.google.fr/maps/place/84800+L'Isle-sur-la-Sorgue/@43.9191238,5.0236488,13z/data=!3m1!4b1!4m5!3m4!1s0x12b5f5ee23b7a5cf:0x1dd5e5d1d1d7e16d!8m2!3d43.91419!4d5.057106"
+          }
+          passHref
+        >
+          <a target="_blank" rel="noreferrer">
+            <figure className=" border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
+              <Image src="/sorgue.webp" fill alt="" className="object-cover" />
+              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+                L&apos;Isle-sur-la-Sorgue - 26km
+              </figcaption>
+            </figure>
+          </a>
+        </Link>
+        <Link
+          passHref
+          href="https://www.google.com/maps/place/Arles/@43.5447349,4.5108494,11z/data=!3m1!4b1!4m5!3m4!1s0x12b672075d4814cd:0x40819a5fd970550!8m2!3d43.676647!4d4.6277769"
+        >
+          <a target="_blank" rel="noreferrer">
+            <figure className=" border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
+              <Image src="/arles.webp" fill alt="" className="object-cover" />
+              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+                Arles - 28km
               </figcaption>
             </figure>
           </a>
@@ -41,7 +100,7 @@ function Visit() {
                 className="object-cover"
               />
               <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
-                Pont du gard
+                Pont du Gard - 38km
               </figcaption>
             </figure>
           </a>
@@ -56,7 +115,7 @@ function Visit() {
             <figure className="border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
               <Image src="/gordes.webp" fill alt="" className="object-cover" />
               <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
-                Gordes
+                Gordes - 40km
               </figcaption>
             </figure>
           </a>
@@ -76,7 +135,7 @@ function Visit() {
                 className="object-cover"
               />
               <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
-                Nîmes
+                Nîmes - 43km
               </figcaption>
             </figure>
           </a>
@@ -94,20 +153,7 @@ function Visit() {
                 className="object-cover"
               />
               <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
-                Marseille
-              </figcaption>
-            </figure>
-          </a>
-        </Link>
-        <Link
-          passHref
-          href="https://www.google.com/maps/place/Arles/@43.5447349,4.5108494,11z/data=!3m1!4b1!4m5!3m4!1s0x12b672075d4814cd:0x40819a5fd970550!8m2!3d43.676647!4d4.6277769"
-        >
-          <a target="_blank" rel="noreferrer">
-            <figure className=" border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
-              <Image src="/arles.webp" fill alt="" className="object-cover" />
-              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
-                Arles
+                Marseille - 97km
               </figcaption>
             </figure>
           </a>

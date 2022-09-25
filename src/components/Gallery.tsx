@@ -24,11 +24,14 @@ function Gallery() {
         <div className="border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
           <Image src="/image-1.webp" fill alt="" className="object-cover" />
         </div>
-        <div className="xl:col-[1/3] xl:row-[2/3] border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
+        <div className=" border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
           <Image src="/image-3.webp" fill alt="" className="object-cover" />
         </div>
-        <div className="lg:col-[1/3] xl:row-[2/3] xl:col-[2/4] border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
+        <div className=" border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
           <Image src="/image-4.webp" fill alt="" className="object-cover" />
+        </div>
+        <div className="border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
+          <Image src="/image-7.webp" fill alt="" className="object-cover" />
         </div>
       </div>
     </section>
