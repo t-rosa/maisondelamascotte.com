@@ -18,7 +18,7 @@ function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
   });
   const mailData = {
     from: req.body.email,
-    to: "toma.rosa@protonmail.com",
+    to: "nathaliebardelli13@gmail.com",
     subject: `Prise de contact gîte - ${req.body.firstName} ${req.body.lastName}`,
     text: req.body.message,
     html: `
