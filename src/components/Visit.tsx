@@ -27,7 +27,7 @@ function Visit() {
                 alt=""
                 className="object-cover"
               />
-              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+              <figcaption className="text-black font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-40 py-3  border-t">
                 Saint-Rémy-de-Provence - 10km
               </figcaption>
             </figure>
@@ -40,7 +40,7 @@ function Visit() {
           <a target="_blank" rel="noreferrer">
             <figure className="border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
               <Image src="/avignon.webp" fill alt="" className="object-cover" />
-              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+              <figcaption className="text-black font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-40 py-3  border-t">
                 Avignon - 14km
               </figcaption>
             </figure>
@@ -53,7 +53,7 @@ function Visit() {
           <a target="_blank" rel="noreferrer">
             <figure className=" border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
               <Image src="/baux.webp" fill alt="" className="object-cover" />
-              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+              <figcaption className="text-black font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-40 py-3  border-t">
                 Les baux de Provence - 19km
               </figcaption>
             </figure>
@@ -68,7 +68,7 @@ function Visit() {
           <a target="_blank" rel="noreferrer">
             <figure className=" border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
               <Image src="/sorgue.webp" fill alt="" className="object-cover" />
-              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+              <figcaption className="text-black font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-40 py-3  border-t">
                 L&apos;Isle-sur-la-Sorgue - 26km
               </figcaption>
             </figure>
@@ -81,7 +81,7 @@ function Visit() {
           <a target="_blank" rel="noreferrer">
             <figure className=" border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
               <Image src="/arles.webp" fill alt="" className="object-cover" />
-              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+              <figcaption className="text-black font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-40 py-3  border-t">
                 Arles - 28km
               </figcaption>
             </figure>
@@ -99,7 +99,7 @@ function Visit() {
                 alt=""
                 className="object-cover"
               />
-              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+              <figcaption className="text-black font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-40 py-3  border-t">
                 Pont du Gard - 38km
               </figcaption>
             </figure>
@@ -114,7 +114,7 @@ function Visit() {
           <a target="_blank" rel="noreferrer">
             <figure className="border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
               <Image src="/gordes.webp" fill alt="" className="object-cover" />
-              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+              <figcaption className="text-black font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-40 py-3  border-t">
                 Gordes - 40km
               </figcaption>
             </figure>
@@ -134,7 +134,7 @@ function Visit() {
                 alt=""
                 className="object-cover"
               />
-              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+              <figcaption className="text-black font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-40 py-3  border-t">
                 Nîmes - 43km
               </figcaption>
             </figure>
@@ -152,7 +152,7 @@ function Visit() {
                 alt=""
                 className="object-cover"
               />
-              <figcaption className=" font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+              <figcaption className="text-black  font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-40 py-3  border-t">
                 Marseille - 97km
               </figcaption>
             </figure>
