@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Contact from "../components/Contact";
@@ -6,9 +7,18 @@ import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
 import Hero from "../components/Hero";
 import Host from "../components/Host";
+import Modal from "../components/Modal";
 import Visit from "../components/Visit";
 
 const Home: NextPage = () => {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
   return (
     <>
       <Head>
@@ -34,6 +44,7 @@ const Home: NextPage = () => {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
+      <Modal />
       <main className="h-full">
         <Hero />
         <Gallery />

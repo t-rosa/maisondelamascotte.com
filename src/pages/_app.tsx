@@ -1,16 +1,17 @@
+import { ThemeProvider } from "next-themes";
 import "@fontsource/allura";
-import "../styles/globals.css";
-import type { AppType } from "next/dist/shared/lib/utils";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import Modal from "../components/Modal";
+import type { AppType } from "next/dist/shared/lib/utils";
+import "../styles/globals.css";
 
 const queryClient = new QueryClient();
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <QueryClientProvider client={queryClient}>
-      <Modal />
-      <Component {...pageProps} />
+      <ThemeProvider attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
     </QueryClientProvider>
   );
 };

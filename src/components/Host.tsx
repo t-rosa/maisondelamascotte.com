@@ -9,9 +9,9 @@ function Host() {
         </nav>
       </header>
       <div className="font-sans col-[2/3] row-[2/3] w-fit gap-24 justify-self-center grid lg:grid-cols-2 xl:grid-cols-3">
-        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 border-indigo-100 border">
+        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 dark:border-indigo-300 border-indigo-100 border">
           <blockquote>
-            <p className="text-lg tracking-tight text-slate-900 before:content-['“'] after:content-['”'] ">
+            <p className="text-lg tracking-tight dark:text-slate-300 text-slate-900 before:content-['“'] after:content-['”'] ">
               Maison au top ! Calme, endroit propice au repos et au dépaysement.
               Propriétaires très accueillants et discrets. Petites attentions
               dès l’ arrivée et durant le séjour qui font vraiment plaisir. A
@@ -20,16 +20,18 @@ function Host() {
           </blockquote>
           <figcaption className="mt-6 flex items-center">
             <div className="ml-4">
-              <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
+              <div className="text-base font-medium leading-6 tracking-tight dark:text-slate-200 text-slate-900">
                 Didier
               </div>
-              <div className="mt-1 text-sm text-slate-600">Belgique</div>
+              <div className="mt-1 text-sm dark:text-slate-500 text-slate-600">
+                Belgique
+              </div>
             </div>
           </figcaption>
         </figure>
-        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 border-indigo-100 border">
+        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 dark:border-indigo-300 border-indigo-100 border">
           <blockquote>
-            <p className="text-lg tracking-tight text-slate-900 before:content-['“'] after:content-['”'] ">
+            <p className="text-lg tracking-tight dark:text-slate-300 text-slate-900 before:content-['“'] after:content-['”'] ">
               Nous avons été reçu très chaleureusement par les propriétaires.
               Une maison au calme, très agréable, fonctionnelle, nous nous
               sommes sentis comme chez nous. Encore un grand merci aux
@@ -38,16 +40,18 @@ function Host() {
           </blockquote>
           <figcaption className="mt-6 flex items-center">
             <div className="ml-4">
-              <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
+              <div className="text-base font-medium leading-6 tracking-tight dark:text-slate-200 text-slate-900">
                 Laura
               </div>
-              <div className="mt-1 text-sm text-slate-600">France</div>
+              <div className="mt-1 text-sm dark:text-slate-500 text-slate-600">
+                France
+              </div>
             </div>
           </figcaption>
         </figure>
-        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 border-indigo-100 border">
+        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 dark:border-indigo-300 border-indigo-100 border">
           <blockquote>
-            <p className="text-lg tracking-tight text-slate-900 before:content-['“'] after:content-['”'] ">
+            <p className="text-lg tracking-tight text-slate-900 dark:text-slate-300 before:content-['“'] after:content-['”'] ">
               Nous avons beaucoup aimé la Maison de la Mascotte, sa terrasse et
               sa piscine privative. La maison était très propre avec tous les
               équipements nécessaires à des vacances, notamment un barbecue. La
@@ -60,16 +64,18 @@ function Host() {
           </blockquote>
           <figcaption className="mt-6 flex items-center">
             <div className="ml-4">
-              <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
+              <div className="text-base font-medium leading-6 tracking-tight dark:text-slate-200 text-slate-900">
                 Julie
               </div>
-              <div className="mt-1 text-sm text-slate-600">France</div>
+              <div className="mt-1 text-sm dark:text-slate-500 text-slate-600">
+                France
+              </div>
             </div>
           </figcaption>
         </figure>
-        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 border-indigo-100 border">
+        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 border-indigo-100 dark:border-indigo-300 border">
           <blockquote>
-            <p className="text-lg tracking-tight text-slate-900 before:content-['“'] after:content-['”'] ">
+            <p className="text-lg tracking-tight text-slate-900 before:content-['“'] dark:text-slate-300  after:content-['”'] ">
               La gentillesse et discrétion de l&apos;hôte , l&apos;environnement
               est splendide pour des vacances reposantes Piscine et extérieur
               bien entretenus. Très belle maison confortable et décorée avec
@@ -79,32 +85,36 @@ function Host() {
           </blockquote>
           <figcaption className="mt-6 flex items-center">
             <div className="ml-4">
-              <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
+              <div className="text-base font-medium leading-6 tracking-tight dark:text-slate-200 text-slate-900">
                 Odette
               </div>
-              <div className="mt-1 text-sm text-slate-600">Belgique</div>
+              <div className="mt-1 text-sm dark:text-slate-500 text-slate-600">
+                Belgique
+              </div>
             </div>
           </figcaption>
         </figure>
-        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 border-indigo-100 border">
+        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 border-indigo-100 dark:border-indigo-300 border">
           <blockquote>
-            <p className="text-lg tracking-tight text-slate-900 before:content-['“'] after:content-['”'] ">
+            <p className="text-lg tracking-tight text-slate-900 before:content-['“'] dark:text-slate-300  after:content-['”'] ">
               Le calme du lieu, la gentillesse et la discrétion des
               propriétaires, rien à redire excellent séjour.
             </p>
           </blockquote>
           <figcaption className="mt-6 flex items-center">
             <div className="ml-4">
-              <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
+              <div className="text-base font-medium leading-6 tracking-tight dark:text-slate-200 text-slate-900">
                 Philippe
               </div>
-              <div className="mt-1 text-sm text-slate-600">France</div>
+              <div className="mt-1 text-sm dark:text-slate-500 text-slate-600">
+                France
+              </div>
             </div>
           </figcaption>
         </figure>
-        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 border-indigo-100 border">
+        <figure className="rounded-md p-8 shadow-md ring-1 ring-indigo-900/5 border-indigo-100 dark:border-indigo-300 border">
           <blockquote>
-            <p className="text-lg tracking-tight text-slate-900 before:content-['“'] after:content-['”'] ">
+            <p className="text-lg tracking-tight text-slate-900 before:content-['“'] dark:text-slate-300 after:content-['”'] ">
               Tout était en très bon état et bien équipé. Machine à café,
               lave-vaisselle, lave-linge, plaques à induction, four,
               réfrigérateur et congélateur, etc. Draps et serviettes à changer,
@@ -116,10 +126,12 @@ function Host() {
           </blockquote>
           <figcaption className="mt-6 flex items-center">
             <div className="ml-4">
-              <div className="text-base font-medium leading-6 tracking-tight text-slate-900">
+              <div className="text-base font-medium leading-6 tracking-tight dark:text-slate-200 text-slate-900">
                 Sabine
               </div>
-              <div className="mt-1 text-sm text-slate-600">Allemagne</div>
+              <div className="mt-1 text-sm dark:text-slate-500 text-slate-600">
+                Allemagne
+              </div>
             </div>
           </figcaption>
         </figure>

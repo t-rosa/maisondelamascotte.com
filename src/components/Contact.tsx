@@ -22,7 +22,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="font-sans overflow-hidden bg-white py-16 px-4 sm:px-6 lg:px-8 lg:py-24"
+      className="font-sans overflow-hidden py-16 px-4 sm:px-6 lg:px-8 lg:py-24"
     >
       <div className="relative mx-auto max-w-xl">
         <svg
@@ -92,7 +92,7 @@ function Contact() {
           />
         </svg>
         <div className="text-center">
-          <h2 className="text-3xl sm:text-4-xl md:text-5xl text-gray-900 sm:text-4xl font-['allura'] border-b ">
+          <h2 className="text-3xl sm:text-4-xl md:text-5xl  sm:text-4xl font-['allura'] border-b ">
             Contact
           </h2>
         </div>
@@ -106,7 +106,7 @@ function Contact() {
             <div>
               <label
                 htmlFor="firstName"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-gray-700 dark:text-gray-300"
               >
                 Prénom
               </label>
@@ -117,14 +117,14 @@ function Contact() {
                   name="firstName"
                   id="firstName"
                   autoComplete="given-name"
-                  className="block w-full border-0 border-b border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
+                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
                 />
               </div>
             </div>
             <div>
               <label
                 htmlFor="last-name"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-gray-700 dark:text-gray-300"
               >
                 Nom
               </label>
@@ -135,14 +135,14 @@ function Contact() {
                   name="lastName"
                   id="lastName"
                   autoComplete="given-name"
-                  className="block w-full border-0 border-b border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
+                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
                 />
               </div>
             </div>
             <div className="sm:col-span-2">
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-gray-700 dark:text-gray-300"
               >
                 Email
               </label>
@@ -153,14 +153,14 @@ function Contact() {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  className="block w-full border-0 border-b border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
+                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
                 />
               </div>
             </div>
             <div className="sm:col-span-2">
               <label
                 htmlFor="phone"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-gray-700 dark:text-gray-300"
               >
                 Téléphone
               </label>
@@ -171,7 +171,7 @@ function Contact() {
                   name="phone"
                   id="phone"
                   autoComplete="tel"
-                  className="block w-full border-0 border-b border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
+                  className="block w-full border-0 border-b dark:bg-zinc-800 dark:placeholder:text-gray-400 border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
                   placeholder="+33 6 12 34 56 67"
                 />
               </div>
@@ -179,7 +179,7 @@ function Contact() {
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-gray-700 dark:text-gray-300"
               >
                 Message
               </label>
@@ -189,7 +189,7 @@ function Contact() {
                   id="message"
                   name="message"
                   rows={4}
-                  className="block w-full border-0 border-b border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
+                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
                   defaultValue={""}
                 />
               </div>
@@ -197,7 +197,7 @@ function Contact() {
             <div className="sm:col-span-2">
               <button
                 type="submit"
-                className="inline-flex w-full items-center duration-150 justify-center rounded-md border border-transparent bg-indigo-400 px-6 py-3 text-base font-medium text-white shadow-lg hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="dark:bg-indigo-700 dark:hover:bg-indigo-900 inline-flex w-full items-center duration-150 justify-center rounded-md border border-transparent bg-indigo-400 px-6 py-3 text-base font-medium text-white shadow-lg hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 Envoyer
               </button>

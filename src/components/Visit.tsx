@@ -144,15 +144,15 @@ function Visit() {
           passHref
           href="https://www.google.com/maps/place/Marseille/@43.2804488,5.3104371,12z/data=!3m1!4b1!4m5!3m4!1s0x12c9bf4344da5333:0x40819a5fd970220!8m2!3d43.296482!4d5.36978"
         >
-          <a target="_blank" rel="noreferrer">
-            <figure className=" border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
+          <a target="_blank" rel="noreferrer" className="col-[1/3] xl:col-auto">
+            <figure className="border-2 shadow-lg relative w-72 sm:w-96 h-96 hover:scale-105 duration-300 hover:border-indigo-500 hover:shadow-xl">
               <Image
                 src="/marseille.webp"
                 fill
                 alt=""
                 className="object-cover"
               />
-              <figcaption className="font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
+              <figcaption className=" font-bold absolute text-center bottom-0 w-full text-3xl bg-gray-300 bg-opacity-30 py-3  border-t">
                 Marseille - 97km
               </figcaption>
             </figure>

@@ -1,14 +1,41 @@
+import { useTheme } from "next-themes";
 import Image from "next/future/image";
 import Link from "next/link";
 import hero from "../assets/hero.webp";
+import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
 
 function Hero() {
+  const { setTheme, theme } = useTheme();
+
+  function toggleTheme() {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  }
   return (
     <section
       id="hero"
       className="h-full grid grid-rows-[5rem_1fr_1rem] grid-cols-[1rem_1fr_1rem] sm:grid-rows-[5rem_1fr_5rem] sm:grid-cols-[5rem_1fr_5rem]"
     >
-      <header className="col-[2/3] row-[1/2]">
+      <button
+        className="col-[2/3] row-[1/2] justify-self-end z-10 w-fit h-fit self-center rounded-full p-2 dark:hover:bg-zinc-800 hover:bg-gray-100 duration-200"
+        onClick={toggleTheme}
+      >
+        {theme === "light" ? (
+          <MoonIcon
+            strokeWidth={1}
+            className="w-6 h-6 hover:rotate-[360deg] duration-700"
+          />
+        ) : (
+          <SunIcon
+            strokeWidth={1}
+            className="w-6 h-6 hover:rotate-[360deg] duration-700"
+          />
+        )}
+      </button>
+      <header className="justify-self-start sm:justify-self-center col-[2/3] pl-4 row-[1/2]">
         <nav className="grid place-items-center w-full h-full">
           <h2 className="text-3xl sm:text-4xl md:text-5xl border-b border-gray-400">
             Maison de la mascotte
