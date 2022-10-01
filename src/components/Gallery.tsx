@@ -73,7 +73,7 @@ function Gallery() {
     };
 
     return (
-        <section id="gallery" className="grid h-full grid-rows-[5rem_auto] gap-y-14 px-3 pb-14 sm:px-10 md:px-14 lg:px-20">
+        <section id="gallery" className="grid h-full grid-rows-[5rem_auto] gap-y-14 px-3 pt-20 pb-14 sm:px-10 md:px-14 lg:px-20">
             <header className="flex items-center justify-center">
                 <h2 className="sm:text-4-xl border-b border-gray-400 text-3xl md:text-5xl">Galerie</h2>
             </header>
