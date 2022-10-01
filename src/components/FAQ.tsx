@@ -28,17 +28,17 @@ const faqs = [
 
 function FAQ() {
     return (
-        <section id="faq" className="dark:bg-zinc-900 bg-gray-50 mt-12 font-sans border-y ">
+        <section id="faq" className="mt-12 border-y bg-zinc-100 font-sans dark:bg-zinc-800 ">
             <div className="mx-auto max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-3xl divide-y-2 divide-gray-200">
-                    <h2 className="font-['allura'] text-center text-3xl font-bold tracking-tight sm:text-4xl">Des questions ?</h2>
+                    <h2 className="text-center font-['allura'] text-3xl font-bold tracking-tight sm:text-4xl">Des questions ?</h2>
                     <dl className="mt-6 space-y-6 divide-y divide-gray-200">
                         {faqs.map((faq) => (
                             <Disclosure as="div" key={faq.question} className="pt-6">
                                 {({ open }) => (
                                     <>
                                         <dt className="text-lg">
-                                            <Disclosure.Button className="flex w-full items-start justify-between text-left dark:text-gray-200 text-gray-400">
+                                            <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-400 dark:text-gray-200">
                                                 <span className="font-medium text-gray-900 dark:text-gray-100">{faq.question}</span>
                                                 <span className="ml-6 flex h-7 items-center">
                                                     <ChevronDownIcon

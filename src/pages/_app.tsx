@@ -7,13 +7,13 @@ import "../styles/globals.css";
 const queryClient = new QueryClient();
 
 const MyApp: AppType = ({ Component, pageProps }) => {
-  return (
-    <QueryClientProvider client={queryClient}>
-      <ThemeProvider attribute="class">
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </QueryClientProvider>
-  );
+    return (
+        <QueryClientProvider client={queryClient}>
+            <ThemeProvider attribute="class">
+                <Component {...pageProps} />
+            </ThemeProvider>
+        </QueryClientProvider>
+    );
 };
 
 export default MyApp;

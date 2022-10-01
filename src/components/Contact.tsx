@@ -117,7 +117,7 @@ function Contact() {
                   name="firstName"
                   id="firstName"
                   autoComplete="given-name"
-                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
+                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-zinc-100 focus:border-indigo-400 focus:ring-0 sm:text-sm"
                 />
               </div>
             </div>
@@ -135,7 +135,7 @@ function Contact() {
                   name="lastName"
                   id="lastName"
                   autoComplete="given-name"
-                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
+                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-zinc-100 focus:border-indigo-400 focus:ring-0 sm:text-sm"
                 />
               </div>
             </div>
@@ -153,7 +153,7 @@ function Contact() {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
+                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-zinc-100 focus:border-indigo-400 focus:ring-0 sm:text-sm"
                 />
               </div>
             </div>
@@ -171,7 +171,7 @@ function Contact() {
                   name="phone"
                   id="phone"
                   autoComplete="tel"
-                  className="block w-full border-0 border-b dark:bg-zinc-800 dark:placeholder:text-gray-400 border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
+                  className="block w-full border-0 border-b dark:bg-zinc-800 dark:placeholder:text-gray-400 border-transparent py-3 px-4 bg-zinc-100 focus:border-indigo-400 focus:ring-0 sm:text-sm"
                   placeholder="+33 6 12 34 56 67"
                 />
               </div>
@@ -189,7 +189,7 @@ function Contact() {
                   id="message"
                   name="message"
                   rows={4}
-                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-gray-50 focus:border-indigo-400 focus:ring-0 sm:text-sm"
+                  className="block w-full border-0 border-b dark:bg-zinc-800 border-transparent py-3 px-4 bg-zinc-100 focus:border-indigo-400 focus:ring-0 sm:text-sm"
                   defaultValue={""}
                 />
               </div>
