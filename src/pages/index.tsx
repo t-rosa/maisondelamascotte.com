@@ -9,7 +9,6 @@ import Hero from "../components/Hero";
 import Host from "../components/Host";
 import Modal from "../components/Modal";
 import Visit from "../components/Visit";
-import Location from "../components/Location";
 import Header from "../components/Header";
 
 const Home: NextPage = () => {
@@ -36,7 +35,7 @@ const Home: NextPage = () => {
             </Head>
 
             <Modal />
-            <main className=" bg-zinc-50 transition-colors duration-300 dark:bg-zinc-900">
+            <main className="bg-zinc-50 transition-colors duration-300 dark:bg-zinc-900">
                 <Header />
                 <Hero />
                 <Gallery />
@@ -44,7 +43,6 @@ const Home: NextPage = () => {
                 <Host />
                 <FAQ />
                 <Contact />
-                <Location />
                 <Footer />
             </main>
         </>
